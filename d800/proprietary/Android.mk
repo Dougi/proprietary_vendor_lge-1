@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),d800)
+ifneq ($(filter d800,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
